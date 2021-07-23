@@ -2,6 +2,7 @@ import dummy from '../db/data.json'
 import { useParams} from "react-router-dom";
 const Day = () => {
 
+    const hwan = "";
     const day = useParams().day;
     const wordList = dummy.words.filter(word => word.day === Number(day));
     console.log(wordList);
