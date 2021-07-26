@@ -15,30 +15,14 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
     }
   ],
   "words": [
-    {
-      "id": 2,
-      "day": 1,
-      "eng": "fruit",
-      "kor": "과일",
-      "isDone": false
-    },
-    {
-      "id": 5,
-      "day": 3,
-      "eng": "school",
-      "kor": "학교",
-      "isDone": false
-    },
-    {
-      "id": 5,
-      "day": 3,
-      "eng": "Chicago",
-      "kor": "시카고",
-      "isDone": false
-    },
+
     {
       "day": "1",
       "eng": "apple",
@@ -59,6 +43,48 @@
       "kor": "컴퓨터",
       "isDone": false,
       "id": 8
+    },
+    {
+      "day": "5",
+      "eng": "America",
+      "kor": "아메리카",
+      "isDone": false,
+      "id": 9
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "",
+      "isDone": false,
+      "id": 10
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "",
+      "isDone": false,
+      "id": 11
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "",
+      "isDone": false,
+      "id": 12
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "",
+      "isDone": false,
+      "id": 14
     }
   ]
 }

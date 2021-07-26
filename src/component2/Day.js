@@ -1,20 +1,18 @@
-import dummy from '../db/data.json'
+import Word from '../component2/Word'
 import { useParams} from "react-router-dom";
+import useFetch from "../Hooks/useFetch";
 const Day = () => {
 
-    const day = useParams().day;
-    const wordList = dummy.words.filter(word => word.day === Number(day));
-    console.log(wordList);
+    const {day} = useParams();
+    const words = useFetch(`http://localhost:3001/words?day=${day}`);
     return(
         <>
             <h2>Day {day}</h2>
+            {words.length === 0 && <span>Loading...</span>}
             <table>
                 <tbody>
-                {wordList.map(word => (
-                    <tr>
-                        <td>{word.eng}</td>
-                        <td>{word.kor}</td>
-                    </tr>
+                {words.map(word => (
+                    <Word word={word} key={word.id}/>
                 ))}
                 </tbody>
             </table>
