@@ -22,7 +22,6 @@
     }
   ],
   "words": [
-
     {
       "day": "1",
       "eng": "apple",
@@ -85,6 +84,13 @@
       "kor": "",
       "isDone": false,
       "id": 14
+    },
+    {
+      "day": "3",
+      "eng": "ABC",
+      "kor": "초콜릿",
+      "isDone": false,
+      "id": 15
     }
   ]
 }
